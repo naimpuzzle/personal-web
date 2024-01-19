@@ -1,0 +1,22 @@
+@media (min-width: 1400px) {}
+@media (min-width: 1200px) and (max-width: 1399px) {}
+@media (min-width: 992px) and (max-width: 1199px) {.links {
+    display: none;
+}
+.hamburger-menu {
+    display: block;
+}
+.links.responsive {position: relative;}
+  .links.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .hamburger-menu.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+    
+}
